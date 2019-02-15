@@ -1,0 +1,210 @@
+
+
+
+body {
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+} 
+
+.Pxcolor {
+
+    color: brown;
+    font-size: 90px;
+    
+}
+
+h1 {
+    text-align : center;
+    font-size: 120px;
+    
+}
+
+.Fontx {
+    font-family: 'Domine', serif;
+    font-size: 25px;
+}
+
+.Alignment {
+    text-align: center;
+}
+
+.Txtedit {
+    
+    color:brown;
+
+}
+
+.header {
+        
+        background-image: url("https://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/styles/sft_1170x375/public/field/image/Hero%20Image_Haring_FINAL.jpg?itok=cyeVNAYx&timestamp=1414016740"), url(banner.png);
+        background-position: center center, center top;
+        background-repeat: no-repeat;
+        padding: 30px;
+        text-align: center;
+        
+      }
+
+     
+
+    .txtalign {
+        text-align:left;
+        width: 500px;
+        
+
+    }
+    .txtalign2 {
+        text-align:left;
+        width: 500px;
+        position: relative;
+    
+
+    }
+
+    .codenation {
+        color:orange;
+        font-size: 37px;
+    }
+
+    
+.backgroundimg {
+    background-image: url("https://d1yn1kh78jj1rr.cloudfront.net/image/preview/rDtN98Qoishumwih/orangeandblackpaper-15-091815-902_SB_PM.jpg");
+    filter:opacity(0.7);
+}
+
+
+
+
+.imgal {
+    image position: relative;
+    
+}
+
+
+.container {
+flex-direction: row;
+
+}
+
+
+
+
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.skills {
+    border-color:brown;
+    color: black;
+}
+
+.aboutme {
+
+    border-color:brown;
+    color: black;
+}
+
+.consultancy {
+    border-color:brown;
+    color:black;
+}
+
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.mySlides {
+    display: none;
+
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 12px;
+    user-select: none
+}
+
+.next {
+    right: 0;
+    border-radius: 5px
+}
+
+.prev:hover, .next:hover {
+    background-color: whitesmoke;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: black;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: beige
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.img {
+    text-align: right
+
+}
